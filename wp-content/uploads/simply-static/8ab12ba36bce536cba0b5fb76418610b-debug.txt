@@ -1,0 +1,546 @@
+[2024-10-19 01:52:16] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-10-19 01:52:16] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, generate_404, transfer_files_locally, wrapup
+[2024-10-19 01:52:16] [class-ss-archive-creation-job.php:102] Pushing first task to queue: setup
+[2024-10-19 01:52:17] [class-ss-archive-creation-job.php:136] Current task: setup
+[2024-10-19 01:52:17] [class-ss-archive-creation-job.php:153] Performing task: setup
+[2024-10-19 01:52:17] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-10-19 01:52:17] [class-ss-setup-task.php:33] Creating archive directory: C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736\
+[2024-10-19 01:52:17] [class-ss-setup-task.php:72] Adding origin URL to queue: http://localhost/thelegacyforge/
+[2024-10-19 01:52:17] [class-ss-archive-creation-job.php:175] We've found our next task: fetch_urls
+[2024-10-19 01:52:17] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 01:52:17] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 01:52:17] [class-ss-fetch-urls-task.php:69] Total pages: 1; Pages remaining: 1
+[2024-10-19 01:52:17] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/
+[2024-10-19 01:52:17] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 1
+[2024-10-19 01:52:17] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:17] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d108192-9LCbx7.tmp
+[2024-10-19 01:52:17] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/?simply_static_page=1
+[2024-10-19 01:52:17] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/?simply_static_page=1
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:103] Filesize: 80406 bytes
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /index.html
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d108192-9LCbx7.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/index.html
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:159] Adding 23 URLs to the queue
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:18] [class-ss-page.php:119] Checking Content Identical:f16215cd9ed194037f4c682610d4bfd1c44779f2===. Value: FALSE
+[2024-10-19 01:52:18] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 1 pages/files
+[2024-10-19 01:52:18] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-19 01:52:18] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 01:52:18] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:69] Total pages: 23; Pages remaining: 22
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/uploads/2024/10/The-Legacy-Forge.png
+[2024-10-19 01:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 23
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d23d150-3rbXH4.tmp
+[2024-10-19 01:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/uploads/2024/10/The-Legacy-Forge.png?simply_static_page=2
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/uploads/2024/10/The-Legacy-Forge.png?simply_static_page=2
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:103] Filesize: 33426 bytes
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/The-Legacy-Forge.png
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d23d150-3rbXH4.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/uploads/2024/10/The-Legacy-Forge.png
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:18] [class-ss-page.php:119] Checking Content Identical:d3c4f8a417240a3e1001fab87dfd552fb4dfa1a3===. Value: FALSE
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-includes/js/jquery/jquery.min.js
+[2024-10-19 01:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 23
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d2414c9-60KlSA.tmp
+[2024-10-19 01:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-includes/js/jquery/jquery.min.js?simply_static_page=3
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-includes/js/jquery/jquery.min.js?simply_static_page=3
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:103] Filesize: 87553 bytes
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d2414c9-60KlSA.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-includes/js/jquery/jquery.min.js
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:18] [class-ss-page.php:119] Checking Content Identical:79cd3587d565afe290076a8d36c31c305a573d18===. Value: FALSE
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-19 01:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 23
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d24b92b-5QMAdZ.tmp
+[2024-10-19 01:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=4
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-includes/js/jquery/jquery-migrate.min.js?simply_static_page=4
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:103] Filesize: 13577 bytes
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d24b92b-5QMAdZ.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-includes/js/jquery/jquery-migrate.min.js
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:18] [class-ss-page.php:119] Checking Content Identical:3ad0c10e501ac2a9bfa18f9cd7e700219b378738===. Value: FALSE
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/Divi/js/scripts.min.js
+[2024-10-19 01:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 23
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d25394e-ohatfc.tmp
+[2024-10-19 01:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=5
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/Divi/js/scripts.min.js?simply_static_page=5
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:103] Filesize: 274335 bytes
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/js/scripts.min.js
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d25394e-ohatfc.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/Divi/js/scripts.min.js
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:18] [class-ss-page.php:119] Checking Content Identical:bd9c767fc7f01661e21bd0a0afec59b9df8d8eb0===. Value: FALSE
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-19 01:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 23
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d260115-nhyxG3.tmp
+[2024-10-19 01:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=6
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/js/common.js?simply_static_page=6
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:103] Filesize: 1343 bytes
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d260115-nhyxG3.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/Divi/core/admin/js/common.js
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:18] [class-ss-page.php:119] Checking Content Identical:b7820e4ffb6becc133c48f66d9f683545530b959===. Value: FALSE
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/xmlrpc.php
+[2024-10-19 01:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 23
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/thelegacyforge/xmlrpc.php
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/feed/
+[2024-10-19 01:52:18] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 23
+[2024-10-19 01:52:18] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d265b6d-3MUTZp.tmp
+[2024-10-19 01:52:18] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/feed/?simply_static_page=8
+[2024-10-19 01:52:18] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/feed/?simply_static_page=8
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:103] Filesize: 1730 bytes
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:233] New filename for static page: /feed/index.xml
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d265b6d-3MUTZp.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/feed/index.xml
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:19] [class-ss-page.php:119] Checking Content Identical:bf16df5028598795b7ed7d07f4995f268013ccb0===. Value: FALSE
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/comments/feed/
+[2024-10-19 01:52:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 23
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d35a932-zd8lmE.tmp
+[2024-10-19 01:52:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/comments/feed/?simply_static_page=9
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/comments/feed/?simply_static_page=9
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:103] Filesize: 1695 bytes
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:233] New filename for static page: /comments/feed/index.xml
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d35a932-zd8lmE.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/comments/feed/index.xml
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:159] Adding 4 URLs to the queue
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:19] [class-ss-page.php:119] Checking Content Identical:69ca7aae74a6668b3f205abc1cff92d7b1b7c175===. Value: FALSE
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-includes/css/dist/block-library/style.min.css
+[2024-10-19 01:52:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 23
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d3d5a12-1IP5h1.tmp
+[2024-10-19 01:52:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-includes/css/dist/block-library/style.min.css?simply_static_page=10
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-includes/css/dist/block-library/style.min.css?simply_static_page=10
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:103] Filesize: 112427 bytes
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d3d5a12-1IP5h1.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-includes/css/dist/block-library/style.min.css
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:19] [class-ss-page.php:119] Checking Content Identical:e23bc18ef1b0f78f7010e3c16e4c5e1f333248bd===. Value: FALSE
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/divi-child/style.css
+[2024-10-19 01:52:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 23
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d3de4fc-Fcd5Dx.tmp
+[2024-10-19 01:52:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/divi-child/style.css?simply_static_page=11
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/divi-child/style.css?simply_static_page=11
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:103] Filesize: 377 bytes
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/divi-child/style.css
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d3de4fc-Fcd5Dx.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/divi-child/style.css
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:19] [class-ss-page.php:119] Checking Content Identical:70f5d3cb3c11e52cad0f811d1ff2e47061e5ead6===. Value: FALSE
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-json/
+[2024-10-19 01:52:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 23
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/thelegacyforge/wp-json/
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-json/wp/v2/pages/20
+[2024-10-19 01:52:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 23
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/thelegacyforge/wp-json/wp/v2/pages/20
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-json/oembed/1.0/embed
+[2024-10-19 01:52:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 23
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/thelegacyforge/wp-json/oembed/1.0/embed
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/et-cache/global/et-divi-customizer-global.min.css
+[2024-10-19 01:52:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 23
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d3e54d0-BENd82.tmp
+[2024-10-19 01:52:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/et-cache/global/et-divi-customizer-global.min.css?simply_static_page=15
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/et-cache/global/et-divi-customizer-global.min.css?simply_static_page=15
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:103] Filesize: 910 bytes
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/css
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/et-cache/global/et-divi-customizer-global.min.css
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d3e54d0-BENd82.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/et-cache/global/et-divi-customizer-global.min.css
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:19] [class-ss-page.php:119] Checking Content Identical:286e53e6cf3e8d4fe5b8d852addf81f1add2927c===. Value: FALSE
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-19 01:52:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 23
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d3e9fa7-tRjwWe.tmp
+[2024-10-19 01:52:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=16
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif?simply_static_page=16
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:103] Filesize: 9427 bytes
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d3e9fa7-tRjwWe.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/Divi/includes/builder/styles/images/preloader.gif
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:19] [class-ss-page.php:119] Checking Content Identical:350a7c0f6b64e19c61b183afef7ffaca57befa30===. Value: FALSE
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-19 01:52:19] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 23
+[2024-10-19 01:52:19] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d3ee2ae-krc6Eq.tmp
+[2024-10-19 01:52:19] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=17
+[2024-10-19 01:52:19] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot?simply_static_page=17
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:103] Filesize: 92172 bytes
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d3ee2ae-krc6Eq.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.eot
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:20] [class-ss-page.php:119] Checking Content Identical:e5d608e4fb41fe9e03711c783bb688fae802d200===. Value: FALSE
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-19 01:52:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 23
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d403312-HAzrUn.tmp
+[2024-10-19 01:52:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=18
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff?simply_static_page=18
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:103] Filesize: 92084 bytes
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/woff
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d403312-HAzrUn.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.woff
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:20] [class-ss-page.php:119] Checking Content Identical:5b1d3cd0929108da4b6334c4a487db08c9520f1d===. Value: FALSE
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-19 01:52:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 23
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d4076a1-sxPSQd.tmp
+[2024-10-19 01:52:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=19
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf?simply_static_page=19
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:103] Filesize: 92008 bytes
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: font/ttf
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d4076a1-sxPSQd.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.ttf
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:20] [class-ss-page.php:119] Checking Content Identical:bb71ed68296fff023bc54673c7f16c594d29be2c===. Value: FALSE
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-19 01:52:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 23
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d40e0a0-GazyRx.tmp
+[2024-10-19 01:52:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=20
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg?simply_static_page=20
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:103] Filesize: 299189 bytes
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/svg+xml
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d40e0a0-GazyRx.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/Divi/core/admin/fonts/modules/all/modules.svg
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:20] [class-ss-page.php:119] Checking Content Identical:76ca6e283d5dc7cbd0fed07468c9aa76dce22009===. Value: FALSE
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/uploads/2024/10/AtableofSecretsTLF.jpg
+[2024-10-19 01:52:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 23
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d41b761-sdbUag.tmp
+[2024-10-19 01:52:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/uploads/2024/10/AtableofSecretsTLF.jpg?simply_static_page=21
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/uploads/2024/10/AtableofSecretsTLF.jpg?simply_static_page=21
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:103] Filesize: 969906 bytes
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/AtableofSecretsTLF.jpg
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d41b761-sdbUag.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/uploads/2024/10/AtableofSecretsTLF.jpg
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:20] [class-ss-page.php:119] Checking Content Identical:029c6440cc3d83fad9ed5c5ae0fcbd88ddef14a0===. Value: FALSE
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/uploads/2024/10/SAGAChpt3.jpg
+[2024-10-19 01:52:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 23
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d421c02-brcMIp.tmp
+[2024-10-19 01:52:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/uploads/2024/10/SAGAChpt3.jpg?simply_static_page=22
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/uploads/2024/10/SAGAChpt3.jpg?simply_static_page=22
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:103] Filesize: 546410 bytes
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/SAGAChpt3.jpg
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d421c02-brcMIp.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/uploads/2024/10/SAGAChpt3.jpg
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:20] [class-ss-page.php:119] Checking Content Identical:8655b7b329bebe89035af1704e328381341f15ee===. Value: FALSE
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/uploads/2024/10/EmbersBG.jpg
+[2024-10-19 01:52:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 23
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d42755c-28tQ0i.tmp
+[2024-10-19 01:52:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/uploads/2024/10/EmbersBG.jpg?simply_static_page=23
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/uploads/2024/10/EmbersBG.jpg?simply_static_page=23
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:103] Filesize: 167888 bytes
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/uploads/2024/10/EmbersBG.jpg
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d42755c-28tQ0i.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/uploads/2024/10/EmbersBG.jpg
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:20] [class-ss-page.php:119] Checking Content Identical:0983c44a9c42b4797b4f33d2246a9a616216c971===. Value: FALSE
+[2024-10-19 01:52:20] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 1 of 23 pages/files
+[2024-10-19 01:52:20] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-19 01:52:20] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 01:52:20] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:69] Total pages: 26; Pages remaining: 3
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge
+[2024-10-19 01:52:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 26
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d4323bd-7wgMUF.tmp
+[2024-10-19 01:52:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge?simply_static_page=24
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge?simply_static_page=24
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:103] Filesize: 361 bytes
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:119] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:147] We weren't able to establish a filename; deleting temp file
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:204] redirect_url: http://localhost/thelegacyforge/
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:213] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/2024/10/19/hello-world/
+[2024-10-19 01:52:20] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 26
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d43631b-kEAGMm.tmp
+[2024-10-19 01:52:20] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/2024/10/19/hello-world/?simply_static_page=25
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/2024/10/19/hello-world/?simply_static_page=25
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:103] Filesize: 141873 bytes
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/19/hello-world/index.html
+[2024-10-19 01:52:20] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d43631b-kEAGMm.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/2024/10/19/hello-world/index.html
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:20] [class-ss-fetch-urls-task.php:159] Adding 27 URLs to the queue
+[2024-10-19 01:52:21] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:21] [class-ss-page.php:119] Checking Content Identical:c6d2b6da1578ae3c03b07ac42f8c39d8f3add8cc===. Value: FALSE
+[2024-10-19 01:52:21] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/2024/10/19/hello-world/feed/
+[2024-10-19 01:52:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 26
+[2024-10-19 01:52:21] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d50ad0b-aa8tiP.tmp
+[2024-10-19 01:52:21] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/2024/10/19/hello-world/feed/?simply_static_page=26
+[2024-10-19 01:52:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/2024/10/19/hello-world/feed/?simply_static_page=26
+[2024-10-19 01:52:21] [class-ss-url-fetcher.php:103] Filesize: 1707 bytes
+[2024-10-19 01:52:21] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 01:52:21] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/19/hello-world/feed/index.xml
+[2024-10-19 01:52:21] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d50ad0b-aa8tiP.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/2024/10/19/hello-world/feed/index.xml
+[2024-10-19 01:52:21] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:21] [class-ss-fetch-urls-task.php:159] Adding 3 URLs to the queue
+[2024-10-19 01:52:21] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:21] [class-ss-page.php:119] Checking Content Identical:1a9cc0df0b02f1e42edf5e5fa5b047cf74e7eb07===. Value: FALSE
+[2024-10-19 01:52:21] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 23 of 26 pages/files
+[2024-10-19 01:52:21] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-19 01:52:21] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 01:52:21] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 01:52:21] [class-ss-fetch-urls-task.php:69] Total pages: 33; Pages remaining: 7
+[2024-10-19 01:52:21] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/category/uncategorized/
+[2024-10-19 01:52:21] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 33
+[2024-10-19 01:52:21] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:21] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d58dd67-v6Zs2y.tmp
+[2024-10-19 01:52:21] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/category/uncategorized/?simply_static_page=27
+[2024-10-19 01:52:21] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/category/uncategorized/?simply_static_page=27
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:103] Filesize: 129201 bytes
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/index.html
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d58dd67-v6Zs2y.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/category/uncategorized/index.html
+[2024-10-19 01:52:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:22] [class-ss-fetch-urls-task.php:159] Adding 25 URLs to the queue
+[2024-10-19 01:52:22] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:22] [class-ss-page.php:119] Checking Content Identical:dbeca943ba8574344a4cb2ba8765d097f3b86e46===. Value: FALSE
+[2024-10-19 01:52:22] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/author/lycus/
+[2024-10-19 01:52:22] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 33
+[2024-10-19 01:52:22] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d65cefb-BkN831.tmp
+[2024-10-19 01:52:22] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/author/lycus/?simply_static_page=28
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/author/lycus/?simply_static_page=28
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:103] Filesize: 129092 bytes
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:233] New filename for static page: /author/lycus/index.html
+[2024-10-19 01:52:22] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d65cefb-BkN831.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/author/lycus/index.html
+[2024-10-19 01:52:22] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:23] [class-ss-fetch-urls-task.php:159] Adding 25 URLs to the queue
+[2024-10-19 01:52:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:23] [class-ss-page.php:119] Checking Content Identical:f2b3674ea9da889dcae47678b067ce57622efd44===. Value: FALSE
+[2024-10-19 01:52:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/2024/10/
+[2024-10-19 01:52:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 33
+[2024-10-19 01:52:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d72f1e0-AAkQVB.tmp
+[2024-10-19 01:52:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/2024/10/?simply_static_page=29
+[2024-10-19 01:52:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/2024/10/?simply_static_page=29
+[2024-10-19 01:52:23] [class-ss-url-fetcher.php:103] Filesize: 128806 bytes
+[2024-10-19 01:52:23] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-10-19 01:52:23] [class-ss-url-fetcher.php:233] New filename for static page: /2024/10/index.html
+[2024-10-19 01:52:23] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d72f1e0-AAkQVB.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/2024/10/index.html
+[2024-10-19 01:52:23] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:23] [class-ss-fetch-urls-task.php:159] Adding 23 URLs to the queue
+[2024-10-19 01:52:23] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:23] [class-ss-page.php:119] Checking Content Identical:6a5d269109bec29341984481ce8c8e3767035fb5===. Value: FALSE
+[2024-10-19 01:52:23] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/Divi/images/logo.png
+[2024-10-19 01:52:23] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 33
+[2024-10-19 01:52:23] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:23] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d7f211d-HkdQ5s.tmp
+[2024-10-19 01:52:23] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/Divi/images/logo.png?simply_static_page=30
+[2024-10-19 01:52:23] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/Divi/images/logo.png?simply_static_page=30
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 1740 bytes
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/images/logo.png
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d7f211d-HkdQ5s.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/Divi/images/logo.png
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:24] [class-ss-page.php:119] Checking Content Identical:29b2b4b27bbcb73490b7db78de2f74a34d011de9===. Value: FALSE
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-includes/js/comment-reply.min.js
+[2024-10-19 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 33
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d807a5a-XY6ymE.tmp
+[2024-10-19 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-includes/js/comment-reply.min.js?simply_static_page=31
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-includes/js/comment-reply.min.js?simply_static_page=31
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 2981 bytes
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-includes/js/comment-reply.min.js
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d807a5a-XY6ymE.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-includes/js/comment-reply.min.js
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:24] [class-ss-page.php:119] Checking Content Identical:db36a77f6aaa2063bfbec02c2c0e967438c5a245===. Value: FALSE
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-10-19 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 33
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d81043c-A5btDw.tmp
+[2024-10-19 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=32
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js?simply_static_page=32
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 3349 bytes
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/javascript
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d81043c-A5btDw.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js/jquery.fitvids.js
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 0 URLs to the queue
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:24] [class-ss-page.php:119] Checking Content Identical:9c1dc49e9747758e033c0e9a7d016401bd78602c===. Value: FALSE
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-json/wp/v2/posts/1
+[2024-10-19 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 33
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/thelegacyforge/wp-json/wp/v2/posts/1
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 01:52:24] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 26 of 33 pages/files
+[2024-10-19 01:52:24] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-19 01:52:24] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 01:52:24] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:69] Total pages: 37; Pages remaining: 4
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/category/uncategorized/feed/
+[2024-10-19 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 37
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d819578-aDHW1N.tmp
+[2024-10-19 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/category/uncategorized/feed/?simply_static_page=34
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/category/uncategorized/feed/?simply_static_page=34
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:103] Filesize: 1770 bytes
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:233] New filename for static page: /category/uncategorized/feed/index.xml
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d819578-aDHW1N.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/category/uncategorized/feed/index.xml
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:24] [class-ss-page.php:119] Checking Content Identical:a4efd29badaf6f238ac776b11bf9e508ffabc610===. Value: FALSE
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-json/wp/v2/categories/1
+[2024-10-19 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 37
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/thelegacyforge/wp-json/wp/v2/categories/1
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/author/lycus/feed/
+[2024-10-19 01:52:24] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 37
+[2024-10-19 01:52:24] [class-ss-fetch-urls-task.php:83] URL is not being excluded
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d89f772-U1BXER.tmp
+[2024-10-19 01:52:24] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/author/lycus/feed/?simply_static_page=36
+[2024-10-19 01:52:24] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/author/lycus/feed/?simply_static_page=36
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:103] Filesize: 1752 bytes
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:233] New filename for static page: /author/lycus/feed/index.xml
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d89f772-U1BXER.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736/author/lycus/feed/index.xml
+[2024-10-19 01:52:25] [class-ss-fetch-urls-task.php:152] Extracting URLs and replacing URLs in the static file
+[2024-10-19 01:52:25] [class-ss-fetch-urls-task.php:159] Adding 5 URLs to the queue
+[2024-10-19 01:52:25] [class-ss-fetch-urls-task.php:170] We're saving this URL; keeping the static file
+[2024-10-19 01:52:25] [class-ss-page.php:119] Checking Content Identical:0130d099aa26e50116d48fa7dfc336970b2f1955===. Value: FALSE
+[2024-10-19 01:52:25] [class-ss-fetch-urls-task.php:72] URL: http://localhost/thelegacyforge/wp-json/wp/v2/users/1
+[2024-10-19 01:52:25] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 37
+[2024-10-19 01:52:25] [class-ss-fetch-urls-task.php:79] Excludable found: URL: http://localhost/thelegacyforge/wp-json/wp/v2/users/1
+[2024-10-19 01:52:25] [class-ss-fetch-urls-task.php:89] Skipping URL because it is no-save and no-follow
+[2024-10-19 01:52:25] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 33 of 37 pages/files
+[2024-10-19 01:52:25] [class-ss-archive-creation-job.php:181] We're not done with the fetch_urls task yet
+[2024-10-19 01:52:25] [class-ss-archive-creation-job.php:136] Current task: fetch_urls
+[2024-10-19 01:52:25] [class-ss-archive-creation-job.php:153] Performing task: fetch_urls
+[2024-10-19 01:52:25] [class-ss-fetch-urls-task.php:69] Total pages: 37; Pages remaining: 0
+[2024-10-19 01:52:25] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 37 of 37 pages/files
+[2024-10-19 01:52:25] [class-ss-archive-creation-job.php:175] We've found our next task: generate_404
+[2024-10-19 01:52:25] [class-ss-archive-creation-job.php:136] Current task: generate_404
+[2024-10-19 01:52:25] [class-ss-archive-creation-job.php:153] Performing task: generate_404
+[2024-10-19 01:52:25] [class-ss-task.php:44] Status message: [generate_404] Generating 404 Page.
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: C:\Users\breed\AppData\Local\Temp/671310d930f0a-yVODES.tmp
+[2024-10-19 01:52:25] [class-ss-page-handler.php:38] URL Prepared:http://localhost/thelegacyforge/1729302746?simply_static_page=0
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:251] Fetching URL: http://localhost/thelegacyforge/1729302746?simply_static_page=0
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:103] Filesize: 51696 bytes
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:119] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:233] New filename for static page: 404/index.html
+[2024-10-19 01:52:25] [class-ss-url-fetcher.php:143] Renaming temp file from C:\Users\breed\AppData\Local\Temp/671310d930f0a-yVODES.tmp to C:\xampp\htdocs\thelegacyforge/wp-content/uploads\simply-static\temp-files/simply-static-1-1729302736\404/index.html
+[2024-10-19 01:52:25] [class-ss-generate-404-task.php:119] Replacing URLs in the static file
+[2024-10-19 01:52:25] [class-ss-generate-404-task.php:125] We're saving this URL; keeping the static file
+[2024-10-19 01:52:25] [class-ss-page.php:119] Checking Content Identical:8dd582a754599a4ce535e573c94982675e7b161d===. Value: FALSE
+[2024-10-19 01:52:25] [class-ss-task.php:44] Status message: [generate_404] 404 Page generated
+[2024-10-19 01:52:25] [class-ss-archive-creation-job.php:175] We've found our next task: transfer_files_locally
+[2024-10-19 01:52:25] [class-ss-archive-creation-job.php:136] Current task: transfer_files_locally
+[2024-10-19 01:52:25] [class-ss-archive-creation-job.php:153] Performing task: transfer_files_locally
+[2024-10-19 01:52:25] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferring 29 of 29 files
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/uploads/2024/10
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-includes/js/jquery
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-includes/js/jquery
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/Divi/js
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/Divi/core/admin/js
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/feed
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/comments/feed
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-includes/css/dist/block-library
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/divi-child
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/et-cache/global
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/Divi/includes/builder/styles/images
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/Divi/core/admin/fonts/modules/all
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/uploads/2024/10
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/uploads/2024/10
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/uploads/2024/10
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/2024/10/19/hello-world
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/2024/10/19/hello-world/feed
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/category/uncategorized
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/author/lycus
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/2024/10
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/Divi/images
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-includes/js
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/wp-content/themes/Divi/includes/builder/feature/dynamic-assets/assets/js
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/category/uncategorized/feed
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:102] Trying to transfer: C:/xampp/htdocs/thelegacyforge/author/lycus/feed
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:73] [Transfer] Total Pages:29. Processed Pages: 29
+[2024-10-19 01:52:26] [class-ss-task.php:44] Status message: [transfer_files_locally] Transferred 29 of 29 files
+[2024-10-19 01:52:26] [trait-can-process-pages.php:110] Total pages: 29; Pages remaining: 0
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:238] Transferring 404 Page
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:257] Destination 404 Page found at C:\xampp\htdocs\thelegacyforge\404\index.html
+[2024-10-19 01:52:26] [class-ss-transfer-files-locally-task.php:261] Success
+[2024-10-19 01:52:26] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://daltonbreedt.github.io/thelegacyforge/" target="_blank">https://daltonbreedt.github.io/thelegacyforge/</a>
+[2024-10-19 01:52:26] [class-ss-archive-creation-job.php:175] We've found our next task: wrapup
+[2024-10-19 01:52:26] [class-ss-archive-creation-job.php:136] Current task: wrapup
+[2024-10-19 01:52:26] [class-ss-archive-creation-job.php:153] Performing task: wrapup
+[2024-10-19 01:52:26] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2024-10-19 01:52:26] [class-ss-task.php:44] Status message: [wrapup] Wrapping up
+[2024-10-19 01:52:26] [class-ss-archive-creation-job.php:170] This task is done and there are no more tasks, time to complete the job
+[2024-10-19 01:52:26] [class-ss-archive-creation-job.php:197] Completing the job
+[2024-10-19 01:52:26] [class-ss-archive-creation-job.php:324] Status message: [done] Done! Finished in 00:00:10
